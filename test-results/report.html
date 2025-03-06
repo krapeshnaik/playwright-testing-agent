@@ -1,0 +1,66 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>UI Test Results</title>
+      <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        h1 { color: #333; }
+        .summary { margin-bottom: 20px; }
+        .passed { color: green; }
+        .failed { color: red; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { text-align: left; padding: 8px; border: 1px solid #ddd; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        th { background-color: #4CAF50; color: white; }
+        .test-failed { background-color: #ffdddd; }
+      </style>
+    </head>
+    <body>
+      <h1>UI Test Results</h1>
+      <div class="summary">
+        <p>Passed: <span class="passed">3</span> / 3</p>
+        <p>Failed: <span class="failed">0</span> / 3</p>
+        <p>Pass Rate: 100%</p>
+      </div>
+      <table>
+        <tr>
+          <th>Selector</th>
+          <th>Test Type</th>
+          <th>Expected</th>
+          <th>Actual</th>
+          <th>Status</th>
+          <th>Timestamp</th>
+        </tr>
+        
+          <tr class="">
+            <td>h1</td>
+            <td>text</td>
+            <td>Example Domain</td>
+            <td>Example Domain</td>
+            <td>PASS</td>
+            <td>2025-03-06T09:18:08.392Z</td>
+          </tr>
+        
+          <tr class="">
+            <td>a</td>
+            <td>exists</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>PASS</td>
+            <td>2025-03-06T09:18:08.409Z</td>
+          </tr>
+        
+          <tr class="">
+            <td>a</td>
+            <td>attribute</td>
+            <td>href=https://www.iana.org/domains/example</td>
+            <td>https://www.iana.org/domains/example</td>
+            <td>PASS</td>
+            <td>2025-03-06T09:18:08.420Z</td>
+          </tr>
+        
+      </table>
+    </body>
+    </html>
+    

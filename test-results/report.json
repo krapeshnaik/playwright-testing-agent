@@ -1,0 +1,25 @@
+[
+  {
+    "selector": "h1",
+    "testType": "text",
+    "expected": "Example Domain",
+    "actual": "Example Domain",
+    "passed": true,
+    "timestamp": "2025-03-06T09:18:08.392Z"
+  },
+  {
+    "selector": "a",
+    "testType": "exists",
+    "actual": null,
+    "passed": true,
+    "timestamp": "2025-03-06T09:18:08.409Z"
+  },
+  {
+    "selector": "a",
+    "testType": "attribute",
+    "expected": "href=https://www.iana.org/domains/example",
+    "actual": "https://www.iana.org/domains/example",
+    "passed": true,
+    "timestamp": "2025-03-06T09:18:08.420Z"
+  }
+]
