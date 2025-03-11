@@ -25,6 +25,7 @@ npm init -y
 
 # Install dependencies
 npm install playwright
+npx playwright install
 ```
 
 ## Quick Start
